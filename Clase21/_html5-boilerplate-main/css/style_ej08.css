@@ -1,0 +1,128 @@
+body {
+  margin: auto;
+  padding: 0;
+  max-width: 1000px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: rgb(168, 255, 89);
+}
+
+header figure {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+header figure img {
+  max-width: 150px;
+}
+
+header nav {
+  background-color: rgb(97, 149, 54);
+  margin: 0;
+  padding: 5px 10px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+.ej8list li + li:before {
+  content: " | ";
+  color: white;
+}
+
+.ej8list li a {
+  color: white;
+  font-size: 14px;
+}
+
+.h1ej8 h1 {
+  margin: 0;
+}
+
+.h1ej8 {
+  display: flex;
+  justify-content: center;
+}
+
+.hero img {
+  max-width: 100%;
+}
+
+.arti1,
+.arti2,
+.arti3 {
+  padding: 20px;
+  border: 5px solid;
+  margin-bottom: 50px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 18px;
+}
+.arti1 {
+  margin-top: 50px;
+  background-color: rgb(253 254 169);
+  border-color: rgb(164 142 42);
+}
+.arti2 {
+  background-color: rgb(203 255 156);
+  border-color: rgb(103 145 60);
+}
+.arti3 {
+  background-color: rgb(171 220 255);
+  border-color: rgb(25 44 84);
+}
+
+main article p {
+  font-size: 12px;
+}
+
+#footerej8 {
+  padding: 20px;
+  background-color: rgb(193 193 193);
+  border-top: 8px grey solid;
+  border-bottom: 8px grey solid;
+}
+
+#footerej8 article picture {
+  display: flex;
+  justify-content: row;
+  gap: 5px;
+}
+
+footer picture,
+footer figure {
+  margin: 0;
+  padding: 0;
+}
+
+footer article + article {
+  margin-top: 50px;
+}
+
+footer article figure img {
+  width: 1rem;
+}
+footer article figure {
+  display: flex;
+  align-items: flex-end;
+}
+#genderpic {
+  width: 35px;
+  filter: invert(0);
+}
+
+#footerej8 article figure {
+  display: flex;
+}
+footer article figure img {
+  filter: invert(1);
+}

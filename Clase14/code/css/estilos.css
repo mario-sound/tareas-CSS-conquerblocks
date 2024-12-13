@@ -1,0 +1,85 @@
+.caja1-ejercicio1 {
+  width: 250px;
+  height: 200px;
+  border: red 5px solid;
+  background-color: #ccc;
+  padding: 10px;
+  margin: 25px;
+  font-size: 25px;
+}
+.caja2-ejercicio1 {
+  width: 300px;
+  height: 200px;
+  border: green 7px solid;
+  background-color: grey;
+  color: white;
+  padding: 5px;
+  margin: 0px;
+  font-size: 25px;
+}
+
+.contenedor-ejercicio2 {
+  border: red 5px solid;
+}
+
+.caja1-ejercicio2 {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: green 5px solid;
+  padding: 5px 0px;
+}
+.caja2-ejercicio2 {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 50px;
+  border: blue 5px solid;
+  padding: 5px 0px;
+}
+.caja3-ejercicio2 {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  border: orange 5px solid;
+  padding: 5px 0px;
+}
+
+.caja1-ejercicio3 {
+  border: red 5px solid;
+  margin-bottom: 10px;
+}
+.caja2-ejercicio3 {
+  border: blue 5px solid;
+  margin-bottom: 10px;
+  padding: 25px;
+}
+.caja3-ejercicio3 {
+  border: green 5px solid;
+  margin-bottom: 10px;
+  padding: 50px;
+}
+
+.caja1-ejercicio4 {
+  border-top: green 5px dotted;
+  border-right: gold 5px dashed;
+  border-bottom: red 5px dotted;
+  border-left: blue 5px dashed;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.caja2-ejercicio4 {
+  border-top: aqua 5px solid;
+  border-right: black 10px solid;
+  border-bottom: pink 5px solid;
+  border-left: black 10px solid;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.caja3-ejercicio4 {
+  border: black 3px solid;
+  padding: 10px;
+  text-align: center;
+}

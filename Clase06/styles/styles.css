@@ -1,0 +1,72 @@
+div > div {
+  /* [√] */
+  color: purple;
+}
+
+p > * {
+  /* [√] */
+  color: blueviolet;
+}
+
+article > p {
+  /* [√] */
+  color: blue;
+}
+
+article p {
+  /* [√] */
+  color: yellowgreen;
+}
+
+h1,
+h3 {
+  /* [√] */
+  color: grey;
+}
+
+body ol {
+  /* [√] */
+  color: navy;
+}
+
+.amarillo {
+  /* Otra opción:
+  [class="amarillo"]
+  */
+  /* [√] */
+  background-color: yellow;
+}
+
+body > ul {
+  /* [√] */
+  background-color: lime;
+}
+
+p > a {
+  /* [√] */
+  color: brown;
+}
+
+#platano {
+  /* Otra opción:
+  [id="platano"] */
+  /* [√] */
+  color: goldenrod;
+}
+
+h2 ~ div {
+  /* [√] */
+  color: teal;
+}
+
+ul p.paisa {
+  /* [√] */
+  color: darkred;
+}
+
+header > h1.headertitle,
+h2.headertitle,
+h3.headertitle {
+  /* [√] */
+  background-color: aquamarine;
+}

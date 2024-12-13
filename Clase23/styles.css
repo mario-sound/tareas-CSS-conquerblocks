@@ -1,0 +1,81 @@
+hr {
+  margin: 50px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.ejestructura {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "main main . aside"
+    "footer footer footer footer";
+}
+
+.ejestructura header {
+  grid-area: header;
+  background-color: pink;
+}
+
+.ejestructura main {
+  grid-area: main;
+  background-color: aqua;
+}
+
+.ejestructura aside {
+  grid-area: aside;
+  background-color: cadetblue;
+}
+
+.ejestructura footer {
+  grid-area: footer;
+  background-color: grey;
+}
+
+.ejemplo1 {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 50px);
+  gap: 5px;
+  text-align: center;
+}
+
+.ejemplo1 div {
+  background-color: purple;
+  font-size: 3rem;
+  color: white;
+}
+
+.ejemplo2 {
+  display: grid;
+  grid-template-columns: 50px 100px;
+  grid-template-rows: 50px 100px 50px;
+  text-align: center;
+  gap: 1px;
+}
+
+.ejemplo2 div {
+  background-color: blue;
+  font-size: 3rem;
+  color: white;
+  align-content: center;
+}
+
+.ejemplo3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 1px;
+}
+
+.ejemplo3 div {
+  background-color: pink;
+  font-size: 3rem;
+  color: white;
+  align-content: center;
+  text-align: center;
+}

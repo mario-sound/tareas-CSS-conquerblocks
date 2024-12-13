@@ -1,0 +1,250 @@
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  background-color: rgb(38, 38, 39);
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(67, 67, 67);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+}
+
+header a:hover {
+  text-decoration: none;
+  background-color: rgb(67, 67, 67);
+  color: rgb(153, 153, 153);
+}
+
+nav > ul {
+  padding: 0;
+}
+
+header nav.ej1 ul {
+  height: auto;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  background-color: rgb(153, 153, 153);
+}
+
+header nav.ej2 ul {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  background-color: rgb(153, 153, 153);
+}
+
+header nav.ej3 ul {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  background-color: rgb(153, 153, 153);
+  gap: 20px;
+}
+
+header nav.ej4 ul {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  max-width: 30%;
+  list-style: none;
+  background-color: rgb(153, 153, 153);
+}
+
+.ej5 section {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+}
+.ej5 figure,
+.ej5 img {
+  margin: 0;
+}
+.ej5 img {
+  width: 100px;
+  border: 2px grey dotted;
+}
+
+.ej6 section {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+}
+.ej6 figure,
+.ej6 img {
+  margin: 3px;
+}
+.ej6 img {
+  width: 100px;
+  border: 2px grey dotted;
+}
+
+.h1ej7 {
+  display: flex;
+  font-size: 20px;
+  font-weight: 100;
+  flex-direction: row-reverse;
+  padding-right: 10px;
+}
+
+.ej7 {
+  display: flex;
+}
+
+.ej7 article figure {
+  justify-content: center;
+}
+.ej7 article {
+  padding: 5px;
+  text-align: center;
+}
+
+.ej7 article:nth-of-type(1) {
+  background-color: rgb(123, 174, 172);
+}
+
+.ej7 article:nth-of-type(2) {
+  background-color: rgb(181, 232, 170);
+}
+
+.ej7 article:nth-of-type(3) {
+  background-color: rgb(177, 193, 218);
+}
+
+.h1ej8,
+.h1ej8 img,
+figure {
+  display: flex;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+section.h1ej8 h1 {
+  margin: 0;
+  padding: 0;
+  background-color: initial;
+  color: rgb(69, 65, 71);
+  display: flex;
+  align-self: flex-end;
+}
+section.h1ej8 {
+  background-color: rgb(168, 255, 89);
+  display: flex;
+  justify-content: center;
+}
+
+.ej8list {
+  width: 100%;
+}
+
+.cabeceraej8 img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.h1ej8 img {
+  width: 100px;
+  display: flex;
+}
+
+.ej8list ul {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  background-color: rgb(97, 149, 54);
+}
+
+.ej8list ul a {
+  color: white;
+}
+
+header figure img {
+  display: flex;
+  width: 80vw;
+}
+
+.opciones8 {
+  display: flex;
+}
+
+.arti1,
+.arti2,
+.arti3 {
+  border: 4px solid;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.arti1 {
+  background-color: rgb(253 254 169);
+  border-color: rgb(164 142 42);
+}
+.arti2 {
+  background-color: rgb(203 255 156);
+  border-color: rgb(103 145 60);
+}
+.arti3 {
+  background-color: rgb(171 220 255);
+  border-color: rgb(25 44 84);
+}
+
+#footerej8 {
+  padding: 20px;
+  background-color: rgb(193 193 193);
+  border-top: 8px grey solid;
+  border-bottom: 8px grey solid;
+}
+
+#footerej8 article picture {
+  display: flex;
+  justify-content: row;
+  gap: 5px;
+}
+
+footer article figure img {
+  width: 1rem;
+}
+footer article figure {
+  display: flex;
+  align-items: flex-end;
+}
+#genderpic {
+  width: 35px;
+  filter: invert(0);
+}
+
+#footerej8 article figure {
+  display: flex;
+}
+footer article figure img {
+  filter: invert(1);
+}
+
+.ej8list li + li:before {
+  content: " | ";
+  color: white;
+}

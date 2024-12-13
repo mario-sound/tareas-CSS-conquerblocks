@@ -1,0 +1,211 @@
+1. div > div {
+}
+2. li:last-of-type {
+}
+li:last-child 3. li > *:nth-child(2n) {
+}
+4. li > :nth-child(2n-1) {
+}
+5. article > p {
+}
+6. article p {
+}
+7. h1,
+h3 {
+}
+8. body ol {
+}
+9. body > ul {
+}
+10. p > a {
+}
+11. body div {
+}
+12. body > *:first-child {
+}
+13. ul > *:last-child {
+}
+14. ul > *:first-child {
+}
+15. ul li:nth-of-type(2n) {
+}
+16. ul li:nth-of-type(2n + 1) {
+}
+17. ul > *:nth-last-of-type(3) {
+}
+18. p#platano {
+}
+19. *.rojo:first-child {
+}
+20. section h2 {
+}
+21. section > *:nth-child(2) {
+}
+22. ol > *:nth-child(2n) {
+}
+23. ul li:nth-last-of-type(3) {
+}
+24. div > p.verde {
+}
+25. div > a[class*="grande"] {
+}
+26. section > button {
+}
+27. button:only-child {
+}
+28. p > span:first-child {
+}
+29. section > input + label {
+}
+30. div > button {
+}
+31. body > *:nth-last-child(2) {
+}
+32. label[for="mascota"] {
+}
+33. div img.clasec {
+}
+34. p a {
+}
+35. *.Curvado {
+}
+36. a.Recto,
+ol.Recto {
+}
+37. div h2 a {
+}
+38. div p span > * {
+}
+39. div *[class="aviso"],
+p {
+}
+40. p#Sons > em,
+p#Sons > a {
+}
+41. .basico a {
+}
+42. .lolito h2 {
+}
+43. p * {
+}
+44. div p select {
+}
+45. p > span {
+}
+46. h1 p li {
+}
+47. div.transbox {
+}
+48. h1 p {
+}
+49. li {
+}
+50. h2 > p {
+}
+51. div p {
+}
+52. a {
+}
+53. .libreConf * {
+}
+54. .libreConf p {
+}
+55. div h2 p {
+}
+56. #prueba1 p {
+}
+57. div p > a {
+}
+58. h1.libreConf,
+h2.libreConf,
+h3.libreConf {
+}
+59. p#párrafo1 {
+}
+60. p#hijos > a {
+}
+61. div p {
+}
+62. p:first-of-type,
+p:nth-of-type(2) {
+}
+63. div#primero a.azul {
+}
+64. span.holaKtal,
+div.holaKtal {
+}
+65. div > p li[h3] {
+}
+66. p :nth-of-type(2n-1) {
+}
+67. div span,
+div h3 {
+}
+68. a:nth-of-type(3),
+p:nth-of-type(5) {
+}
+69. div h1.rojo {
+}
+70. div p * {
+}
+71. p.centrado {
+}
+72. h1.hola p {
+}
+73. div > *:last-child {
+}
+74. p a:nth-of-type(3) {
+}
+75. h2#titulo {
+}
+76. div p:nth-of-type(2) {
+}
+77. p:nth-of-type(n + 3) {
+  color: red;
+}
+78. div p:nth-of-type(2) > h1 {
+}
+79. * > p#Nombre a.Buenas {
+}
+80. h1,
+div h2 {
+}
+81. div:first-of-type {
+}
+82. h3 {
+}
+83. p.Row img {
+}
+84. div * ol {
+}
+85. p span,
+p a,
+p div {
+}
+86. .hype .power:first-child {
+}
+87. ol {
+}
+88. p.hola a {
+}
+89. p > *:nth-child(2) {
+}
+90. div p:nth-of-type(2) *:last-child {
+}
+91. div > :first-child,
+div > :last-child {
+}
+92. div p #c-header {
+}
+93. p {
+}
+94. img.loco {
+}
+95. p a:nth-of-type(2),
+p > :nth-child(3) {
+}
+96. p:nth-last-of-type(1) {
+}
+97. p:first-of-type,
+p:last-of-type {
+}

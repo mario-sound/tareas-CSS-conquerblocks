@@ -1,0 +1,62 @@
+p > a:first-of-type {
+  /* p > a:first-child {*/
+  /* [x] */
+  color: red;
+}
+form > input[type="checkbox"]:checked {
+  /* form > input:checked { */
+  /* [x] */
+  margin: 15px;
+}
+
+form > input[checked] + label {
+  /* [x] MISMO EJERCICIO. RESOLUCION ARRIBA*/
+  color: blue;
+}
+
+article p:last-of-type {
+  /* article p:last-child { */
+  /* [x] */
+  background-color: aqua;
+}
+
+section > *:nth-child(2) {
+  /* section *:nth-child(2) { */
+  /* No sería necesario añadir el * para que funcione */
+  /* [x] */
+  color: blueviolet;
+}
+
+ol:nth-child(2n) {
+  /*even también sería correcto*/
+  /* li ol :nth-child(even) { */
+  /* [x] */
+  color: brown;
+}
+
+li ul li:nth-last-child(3) {
+  /* [√] */
+  color: red;
+}
+
+li p a:nth-of-type(2) {
+  /* [√] */
+  color: orange;
+}
+
+button:only-child {
+  /* [√] */
+  color: red;
+}
+
+p > span:first-child {
+  /* li p > span { */
+  /* [x] */
+  color: red;
+}
+
+body > :nth-last-child(2) {
+  /* body > :nth-last-child(3) { */
+  /* [x] */
+  color: darkred;
+}

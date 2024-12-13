@@ -1,0 +1,54 @@
+body {
+  position: relative;
+  margin: 0;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: magenta;
+  color: white;
+  margin: 1px;
+  display: inline-block;
+  margin: 0;
+}
+
+.cajasa {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border: 2px black solid;
+}
+.cajasb {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 2px black solid;
+}
+.cajasc {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  border: 2px black solid;
+}
+.cajasd {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  border: 2px black solid;
+}
+
+.cajasb .pregb1 {
+  position: absolute;
+  right: 0;
+  bottom: 35%;
+}
+.cajasc .pregc1 {
+  position: relative;
+  left: 208px;
+  top: 108px;
+}
+.cajasd .pregd1 {
+  position: absolute;
+  right: 0;
+}
