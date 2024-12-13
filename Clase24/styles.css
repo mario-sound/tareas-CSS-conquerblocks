@@ -130,7 +130,7 @@ figure {
 }
 
 .container.carta3 {
-  display: grid;ñññ
+  display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     "header main ."
