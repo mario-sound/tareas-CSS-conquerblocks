@@ -1,0 +1,327 @@
+div {
+  background-color: cadetblue;
+  color: azure;
+}
+section {
+  margin: 10px;
+  width: 500px;
+  height: 200px;
+}
+.ejercicio1 {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.ejercicio1 div {
+  text-align: center;
+  align-content: center;
+}
+
+.ejercicio2 {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "celda1 celda1 celda1"
+    "celda2 celda3 celda4"
+    "celda5 celda6 celda7";
+}
+
+.ejercicio2 div {
+  text-align: center;
+  align-content: center;
+}
+
+.ejercicio2 .celda1 {
+  grid-area: celda1;
+}
+.ejercicio2_b {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.ejercicio2_b div {
+  text-align: center;
+  align-content: center;
+}
+.ejercicio2_b .celda1 {
+  grid-column: 1 / span 3;
+}
+
+.ejercicio3 {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "celda1 celda1 celda1"
+    "celda2 celda3 celda4"
+    "celda2 celda5 celda6";
+}
+
+.ejercicio3 div {
+  text-align: center;
+  align-content: center;
+}
+
+.ejercicio3 .celda1 {
+  grid-area: celda1;
+}
+.ejercicio3 .celda2 {
+  grid-area: celda2;
+}
+.ejercicio3_b {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.ejercicio3_b div {
+  text-align: center;
+  align-content: center;
+}
+
+.ejercicio3_b .celda1 {
+  grid-column: 1 / span 3;
+}
+.ejercicio3_b .celda2 {
+  grid-row: 2 / span 2;
+}
+
+.ejercicio4 {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: 100px repeat(2, 150px);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "celda1 celda1 celda1"
+    "celda2 celda3 celda4"
+    "celda2 celda5 celda6";
+}
+
+.ejercicio4 div {
+  text-align: center;
+  align-content: center;
+}
+
+.ejercicio4 .celda1 {
+  grid-area: celda1;
+}
+.ejercicio4 .celda2 {
+  grid-area: celda2;
+  align-content: flex-start;
+  padding-top: 20px;
+}
+.ejercicio4_b {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: 100px repeat(2, 150px);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "celda1 celda1 celda1"
+    "celda2 celda3 celda4"
+    "celda2 celda5 celda6";
+}
+
+.ejercicio4_b div {
+  text-align: center;
+  align-content: center;
+}
+
+.ejercicio4_b .celda1 {
+  grid-area: 1 / 1 / span 1 / span 3;
+}
+.ejercicio4_b .celda2 {
+  grid-area: 2 / 1 / span 2 / span 1;
+  align-content: flex-start;
+  padding-top: 20px;
+}
+
+.ejercicio5 {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "celda1 celda1 celda1 celda2"
+    "celda3 celda4 celda5 celda2";
+}
+
+.ejercicio5 div {
+  text-align: center;
+  align-content: center;
+}
+
+.ejercicio5 .celda1 {
+  grid-area: celda1;
+}
+.ejercicio5 .celda2 {
+  grid-area: celda2;
+}
+.ejercicio5_b {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "celda1 celda1 celda1 celda2"
+    "celda3 celda4 celda5 celda2";
+}
+
+.ejercicio5_b div {
+  text-align: center;
+  align-content: center;
+}
+
+.ejercicio5_b .celda1 {
+  grid-area: 1 / 1 / span 1 / span 3;
+}
+.ejercicio5_b .celda2 {
+  grid-area: 1 / 4 / span 2 / span 2;
+}
+
+.ejercicio6 {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "celda1 celda1 celda2 celda2"
+    "celda3 celda4 celda4 celda4"
+    "celda5 celda5 celda5 celda5";
+}
+
+.ejercicio6 div {
+  text-align: center;
+  align-content: center;
+}
+
+.ejercicio6 .celda1 {
+  grid-area: 1 / 1 / span 1 / span 3;
+  /* grid-area: celda1; */
+}
+.ejercicio6 .celda2 {
+  grid-area: 1 / 4 / span 1 / span 3;
+  /* grid-area: celda2; */
+}
+.ejercicio6 .celda3 {
+  grid-area: 2 / 1 / span 1 / span 2;
+  /* grid-area: celda3; */
+}
+.ejercicio6 .celda4 {
+  grid-area: 2 / 3 / span 1 / span 4;
+  /* grid-area: celda4; */
+}
+.ejercicio6 .celda5 {
+  grid-area: 3 / 1 / span 1 / span 6;
+  /* grid-area: celda5; */
+}
+
+.ejercicio7 {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    ". celda1 celda1 celda1"
+    "celda2 celda3 celda3 celda3"
+    "celda4 celda4 celda4 celda4";
+}
+
+.ejercicio7 div {
+  text-align: center;
+  align-content: center;
+}
+
+.ejercicio7 .celda1 {
+  grid-area: celda1;
+  background-color: brown;
+}
+.ejercicio7 .celda2 {
+  grid-area: celda2;
+}
+.ejercicio7 .celda3 {
+  grid-area: celda3;
+  text-align: left;
+}
+.ejercicio7 .celda4 {
+  grid-area: celda4;
+  background-color: grey;
+}
+
+.ejercicio8 {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.ejercicio8 .celda1 {
+  order: 1;
+}
+
+.ejercicio9 {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-auto-flow: column;
+}
+
+.ejercicio10 {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr (2, 2fr);
+  grid-template-areas: "celda1 celda2" "celda3 celda4" "celda5 celda4";
+  margin-bottom: 50px;
+}
+
+.ejercicio10 .celda4 {
+  grid-area: celda4;
+}
+
+.ejercicio10 .celda1 {
+  grid-area: celda1;
+}
+.ejercicio10 .celda2 {
+  grid-area: celda2;
+}
+.ejercicio10 .celda3 {
+  grid-area: celda3;
+  display: grid;
+}
+.ejercicio10 .celda5 {
+  grid-area: celda5;
+}
+
+.ejercicio10 .gridanidado {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "grid1 grid1"
+    "celda2 celda3"
+    "celda4 celda5";
+  justify-self: center;
+  align-content: center;
+}
+
+.ejercicio10 .gridanidado div {
+  border: 1px, solid white;
+  background-color: azure;
+  color: black;
+  text-align: center;
+  align-content: center;
+}
+
+.ejercicio10 .grid1 {
+  grid-area: grid1;
+}
