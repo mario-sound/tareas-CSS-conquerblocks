@@ -1,0 +1,223 @@
+/* EJEMPLO1 */
+table.example1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+table.example1,
+table.example1 td,
+table.example1 th {
+  border: 0;
+  /* border-collapse: collapse; */
+  border-spacing: 0;
+}
+table.example1 td,
+table.example1 th {
+  padding: 15px 70px;
+  text-align: center;
+  font-weight: normal;
+}
+
+table.example1 thead {
+  background-color: black;
+  color: white;
+}
+
+table.example1 tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+/* EJEMPLO2 */
+table.example2 {
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  border-bottom: 3px #378668 solid;
+  border-collapse: collapse;
+}
+table.example2 thead tr th:first-child {
+  border-top-left-radius: 10px;
+}
+table.example2 thead tr th:last-child {
+  border-top-right-radius: 10px;
+}
+table.example2 td,
+table.example2 th {
+  padding: 15px 35px;
+  text-align: center;
+  font-weight: normal;
+}
+
+table.example2 thead {
+  background-color: #378668;
+  color: white;
+}
+
+table.example2 tbody tr:nth-child(even) {
+  background-color: #eee;
+  color: #378668;
+}
+table.example2 tbody tr:nth-child(even) td {
+  font-weight: bold;
+  border-bottom: 2px #e0e0e0 solid;
+  border-top: 2px #e0e0e0 solid;
+}
+/* EJEMPLO3 */
+table.example3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+table.example3 thead {
+  background-color: #333;
+  color: white;
+  text-transform: uppercase;
+}
+table.example3 td,
+table.example3 th {
+  padding: 10px 15px;
+  text-align: center;
+}
+table.example3 tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+table.example3 tbody tr:nth-child(even) th {
+  background-color: #3f65c5;
+  color: white;
+}
+table.example3 tbody tr:nth-child(odd) th {
+  background-color: #2f54c5;
+  color: white;
+}
+table.example3 td.hight {
+  background-color: gold;
+  font-weight: bold;
+}
+/* EJEMPLO4 */
+table.example5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-spacing: 0;
+}
+table.example5 td,
+table.example5 th {
+  padding: 20px 50px;
+}
+table.example5 thead th {
+  font-weight: normal;
+}
+table.example5 tbody th {
+  font-weight: bold;
+}
+table.example5 tbody tr:nth-child(odd) {
+  background-color: #ededed;
+}
+table.example5 a.btn {
+  display: inline-block;
+  background-color: #ccc;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  font-size: 10px;
+}
+table.example5 a.btn.btn-progress {
+  background-color: #53a551;
+  color: white;
+}
+table.example5 a.btn.btn-progress:hover {
+  background-color: #295328;
+}
+table.example5 a.btn.btn-open {
+  background-color: #f6c334;
+  color: black;
+}
+table.example5 a.btn.btn-open:hover {
+  background-color: #886c24;
+  color: white;
+}
+table.example5 a.btn.btn-hold {
+  background-color: #cb444a;
+  color: white;
+}
+table.example5 a.btn.btn-hold:hover {
+  background-color: #6d2528;
+  color: white;
+}
+/* EJEMPLO6 */
+table.example6 {
+  background-color: rgb(19 19 21);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  border-collapse: collapse;
+}
+input {
+  cursor: pointer;
+  background-color: rgb(19 19 21);
+  width: 18px;
+  height: 18px;
+  appearance: none;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(42 42 48);
+}
+input:checked {
+  background-color: green;
+}
+table.example6 td {
+  padding: 20px 50px 20px 0;
+  text-align: left;
+}
+table.example6 tbody {
+  background-color: rgb(28 28 31);
+  color: rgb(74, 74, 78);
+}
+table.example6 tbody tr {
+  border: rgb(19 19 21) 2px solid;
+}
+table.example6 tbody td:nth-of-type(2) {
+  color: rgb(104 104 106);
+}
+table.example6 tbody td p:last-child {
+  color: rgb(104 104 106);
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+/* EJEMPLO7 */
+table.example7 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-spacing: 0;
+  border: 1px solid #5f13ef;
+}
+table.example7 td,
+table.example7 th {
+  padding: 20px 50px;
+  text-align: center;
+}
+table.example7 thead th {
+  font-weight: normal;
+  background-color: #5f13ef;
+  color: white;
+}
+table.example7 tbody th {
+  font-weight: bold;
+}
+table.example7 a.btn {
+  display: inline-block;
+  background-color: #5f13ef;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: white;
+  border-radius: 2px;
+  font-size: 10px;
+}
+table.example7 tbody th {
+  background-color: #e9ebf7;
+}
+table.example7 tbody td:nth-of-type(2n) {
+  background-color: #f4f6fb;
+}

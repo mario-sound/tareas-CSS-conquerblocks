@@ -1,0 +1,189 @@
+/* EJERCICIO 1 */
+.container.ejercicio1 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  background: url(img/topography.svg),
+    linear-gradient(to right, #b7346f, #682fb0);
+  font-size: 3rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.ejercicio1 div {
+  background-color: #f3be35;
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  align-content: center;
+}
+.ejercicio1 .ocho {
+  grid-area: 1 / 7 / span 1 / span 2;
+  background-color: #e65641;
+}
+.ejercicio1 .nueve {
+  grid-area: 1 / 9 / span 2 / span 1;
+  background-color: rgb(162 251 145);
+}
+.ejercicio1 .seis {
+  grid-area: 2 / 1 / span 1 / span 6;
+  background-color: rgb(93 126 224);
+}
+.ejercicio1 .doce {
+  grid-area: 3 / 1 / span 1 / span 6;
+  background-color: rgb(93 126 224);
+}
+.dieciseis {
+  grid-area: 3 / 8 / span 1 / span 2;
+  background-color: rgb(230 86 65);
+}
+.ejercicio1 .dieciocho {
+  grid-area: 4 / 5 / span 2 / span 6;
+  background-color: rgb(150 197 62);
+}
+.ejercicio1 .veinticuatro {
+  grid-area: 5 / 2 / span 1 / span 2;
+  background-color: rgb(230 86 65);
+}
+.ejercicio1 .treinta {
+  grid-area: 6 / 5 / span 1 / span 6;
+  background-color: rgb(93 126 224);
+}
+.ejercicio1 .veintisiete {
+  grid-area: 6 / 2 / span 2 / span 1;
+  background-color: rgb(162 251 145);
+}
+.ejercicio1 .treintaydos {
+  grid-area: 7 / 3 / span 1 / span 2;
+  background-color: rgb(230 86 65);
+}
+.ejercicio1 .treintaiseis {
+  display: none;
+}
+/* EJERCICIO 2 */
+/* primera zona */
+.container.ejercicio2 {
+  background-color: rgb(183 52 111);
+  background-image: linear-gradient(to right, rgb(183 52 111), rgb(104 47 176));
+  display: grid;
+  font-size: 3rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+.ejercicio2 .menuprices {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "principal price1" "principal price2";
+  gap: 2rem;
+}
+.menuprices .principal {
+  grid-area: principal;
+  display: inline-block;
+  align-content: center;
+  text-align: left;
+  padding-left: 5rem;
+  background-image: url(img/taco.jpg);
+  background-size: cover;
+}
+.menuprices .principal p {
+  background-color: gold;
+}
+.menuprices .price1,
+.menuprices .price2 {
+  background-color: gold;
+}
+/* zona 2 */
+.ejercicio2 .options {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding-top: 20px;
+  font-size: 2rem;
+}
+.ejercicio2 .options div {
+  background-color: gold;
+  padding: 15px;
+}
+/* zona 3 */
+.ejercicio2 .description {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  font-size: 1rem;
+}
+.ejercicio2 .description div {
+  background-color: white;
+}
+/* zona 4 */
+.ejercicio2 .special {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  font-size: 1rem;
+  background-color: white;
+}
+.special figure {
+  margin: 0;
+  padding: 0;
+  justify-self: right;
+}
+.special figure img {
+  width: 100%;
+  max-width: 400px; /* Límite de tamaño */
+  height: auto;
+}
+.instantgramstitle {
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+}
+.special .FeaturedTaco {
+  align-content: center;
+  text-align: left;
+  font-size: 1rem;
+}
+.special .FeaturedTaco button {
+  background-color: gold;
+  border: none;
+  padding: 10px;
+}
+
+.instantgramstitle div:first-child,
+.instantgramstitle div:last-child {
+  width: auto;
+  height: 10px;
+  align-self: center;
+  background-image: linear-gradient(to left, gold, rgba(255, 255, 0, 0));
+}
+.instantgramstitle div:last-child {
+  background-image: linear-gradient(to left, rgba(255, 255, 0, 0), gold);
+}
+.instantgramstitle p {
+  font-size: 1.5rem;
+  padding: 0 25px;
+  color: rgb(53, 53, 53);
+}
+/* zona 5 */
+.instantgrams figure,
+.instantgrams img {
+  margin: 0;
+  padding: 0;
+  max-width: 400px;
+}
+.instantgrams {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
